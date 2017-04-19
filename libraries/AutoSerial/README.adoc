@@ -1,0 +1,32 @@
+= Unified (software and hardware) serial port library for Arduino =
+== Description ==
+Library creates the serial object using hardware serial ports at the first. If no free hardware serial ports are available library creates the serial object using SoftwareSerial library.
+Library is dedicated for multi architecture sketches for Arduino (for eg. avr and stm32 where hardware serial ports can be different).
+Library is compatible with all HardwareSerial and SoftwareSerial methods and proprties.
+
+== Methods ==
+=== AutoSerial specific methods ===
+Serial declaration:
+- AutoSerial mySerial;
+
+Check if serial is hardware:
+- bool mySerial.isHardware();
+
+Assign RX and TX pins if serial is SoftwareSerial:
+- bool mySerial.setRxTxPins(uint8_t Rx,uint8_t Tx);
+
+Check the number of hardware/software serial port:
+- uint8_t mySerial.getSerialNumber();
+
+=== AutoSerial other methods (for backward comaptibility with SoftwareSerial) ===
+- bool mySerial.listen();
+- void mySerial.end();
+- bool mySerial.isListening();
+- bool mySerial.stopListening();
+- bool mySerial.overflow();
+
+== License ==
+The code is released under the GNU General Public License.
+
+== Useful links ==
+- https://github.com/rkubera/autoserial
