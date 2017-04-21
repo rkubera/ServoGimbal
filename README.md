@@ -1,6 +1,6 @@
 # ServoGimbal
 2D Gimbal for Arduino based on 2 Servos and MPU6050
-## Requirments:
+## Requirements:
 - Arduino Pro, Pro Mini, Nano, Uno or Atmega2560 (atmega323 processor minimum)
 - MPU6050 (gyro + accelerometer) mounted on camera and connected via I2C to Arduino
 - Roll servo connected to PIN 7
@@ -20,7 +20,7 @@
 - install processing.org (http://processing.org)
 - add ControlP5 library to processing.org (http://www.sojamo.de/libraries/controlP5/) 
 - open pde project from repository localized in Processing.org subfolder
-- connect to arduino using properly Serial Port
+- connect to arduino using properly serial port
 
 ## First steps
 - connect to Arduino
