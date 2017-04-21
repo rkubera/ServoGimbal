@@ -1,6 +1,6 @@
 # ServoGimbal
 2D Gimbal for Arduino based on 2 Servos and MPU6050
-## Requirements:
+## Requirements
 - Arduino Pro, Pro Mini, Nano, Uno or Atmega2560 (atmega323 processor minimum)
 - MPU6050 (gyro + accelerometer) mounted on camera and connected via I2C to Arduino
 - Roll servo connected to PIN 7
@@ -27,3 +27,6 @@
 - using serial port menu or processing.org detect gyro orientation
 - set correct servo refresh frequency: 50Hz is standard, 333Hz for quick servos
 - set properly P, I, D and Direction values for roll and pitch PID settings (using standard PID tuning methods)
+
+##Licence
+GNU/GPL 3.0
