@@ -1,8 +1,8 @@
 # ServoGimbal
 2D Gimbal for Arduino based on 2 Servos and MPU6050
 ## Requirments:
-- Arduino Pro, Pro Mini, Nano, Uno or atmega2560 (atmega323 processor minimum)
-- MPU6050 (gyro + accelerometer) mounted on camera and connected via I2C to Aruino
+- Arduino Pro, Pro Mini, Nano, Uno or Atmega2560 (atmega323 processor minimum)
+- MPU6050 (gyro + accelerometer) mounted on camera and connected via I2C to Arduino
 - Roll servo connected to PIN 7
 - Pitch servo connected to PIN 6
 - (optional) RC Channel (PWM) connected to PIN 2 for manual roll axis set
