@@ -28,5 +28,5 @@
 - set correct servo refresh frequency: 50Hz is standard, 333Hz for quick servos
 - set properly P, I, D and Direction values for roll and pitch PID settings (using standard PID tuning methods)
 
-##Licence
+## Licence
 GNU/GPL 3.0
