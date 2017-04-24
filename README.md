@@ -5,13 +5,13 @@
 - MPU6050 (gyro + accelerometer) mounted on camera and connected via I2C to Arduino
 - Roll servo connected to PIN 7
 - Pitch servo connected to PIN 6
-- (optional) RC Channel (PWM) connected to PIN 2 for manual roll axis set
-- (optional) RC Channel (PWM) connected to PIN 3 for manual pitch axis set
+- (optional) RC Channel (PWM) connected to PIN 2 for roll adjustment
+- (optional) RC Channel (PWM) connected to PIN 3 for pitch adjustment
 
 ## Features
 - full PID support for Roll and Pitch
 - 50/333 Hz for Servo refresh frequency
-- manual set Roll and Pitch axis via RC channels
+- adjust roll and pitch via RC channels
 - mautomatic MPU6050 orientation detection
 - setup via serial port menu or graphical interface (using processing.org)
 - experimental mavlink integration: please uncomment #define USE_MAVLINK 1 in GlobalDefines.h first. Actualy mavlink uses second hardware serial port (if present) or software serial port on PIN 4 (TX) and PIN 5 (RX)
